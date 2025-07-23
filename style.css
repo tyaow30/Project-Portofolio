@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+/* navbar nya */
+
+.navbar {
+    background-color: #914F1E;
+    width: 100%;
+    height: 90px;
+    color: whitesmoke;
+    position: fixed;
+    z-index: 0;
+}
+
+.logo {
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    font-size: xx-large;
+}
+
+.menu {
+    margin-left: 1200px;
+    padding-top: 32px;
+    font-size: x-large;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menu ul li a:hover {
+    color: #F2ECBE;
+    font-style: italic;
+}
+
+
+/* ini beranda */
+
+.beranda {
+    scroll-behavior: smooth;
+    background-color: #DEAC80;
+    height: 1000px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.beranda img{
+    border-radius: 650px;
+    height: 350px;
+    border: 6px solid whitesmoke;
+    margin-top: 275px
+}
+
+.beranda h1{
+    margin-top: 20px;
+    font-size: 57px;
+}
+
+.beranda p{
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+
+/* tentang saya */
+
+.tentang {
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 150px;
+    gap: 60px;
+    padding-top: 100px;
+    margin-top: 30px;
+
+    background-color: white;
+    height: 560px;
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 100px;
+    font-size: 28px;
+    align-content: center;
+}
+
+.box {
+    margin-top: 60px;
+    background-color: #e8e8e8;
+    width: 900px;
+    height: 245px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 30px;
+}
+
+.foto img{
+    background-color: #914F1E;
+    height: 400px;
+    margin-left: 5px;
+    margin-top: 26px;
+    padding: 10px;
+    border-radius: 50%;;
+    box-shadow: 0px 0px 30px #914F1E;
+
+    z-index: -1;
+}
+
+
+/* bagian pengalaman */
+
+.pengalaman {
+    scroll-behavior: smooth;
+    height: 1000px;
+    text-align: center;
+    font-size: 22px;
+    color: #4d4d4d;
+    margin-top: 40px;
+    align-content: center;
+}
+
+.kiri1, .tengah1, .kanan1 {
+    width: 300px;
+    height: 260px;
+    background-color: wheat;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 185px; 
+    margin-right: 15px;
+    margin-top: 70px;
+    float: left;
+    border-radius: 20px;
+}
+
+.kiri2, .tengah2, .kanan2 {
+    width: 300px;
+    
+    background-color: wheat;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 185px; 
+    margin-right: 15px;
+    margin-top: 70px;
+    float: left;
+    border-radius: 20px;
+}
+
+.kiri2 {
+    height: 265px;
+    padding-top: 32px;
+}
+
+.tengah2 {
+    height: 280px;
+    padding-top: 20px;
+}
+
+.kanan2 {
+    height: 280px;
+    padding-top: 20px;
+}
+
+.pengalaman p{
+    margin-top: 15px;
+}
+
+.kiri1:hover, .tengah1:hover, .kanan1:hover, .kiri2:hover, .tengah2:hover, .kanan2:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+/* skill */
+
+.skill {
+    scroll-behavior: smooth;
+    height: 1000px;
+    text-align: center;
+    font-size: 22px;
+    color: #4d4d4d;
+    margin-top: 40px;
+    align-content: center;
+}
+
+.tengah img, .kanan img{
+    height: 100px;
+    padding-top: 30px;
+}
+
+.kiri, .tengah, .kanan {
+    width: 300px;
+    height: 390px;
+    background-color: #DEAC80;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 185px; 
+    margin-right: 15px;
+    margin-top: 70px;
+    float: left;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.kiri img {
+    height: 100px;
+    padding-top: 18px;
+}
+
+
+/* konteak */
+
+.pesan {
+    height: 500px;
+}
+
+.hub {
+    font-size: 26px;
+    color: #4d4d4d;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.telepon, .ig, .email{
+    scroll-behavior: smooth;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 5px;
+    padding-top: 50px;
+    margin-top: 30px;
+    float: left;
+    margin-right: 60px;
+    margin-left: 185px;
+
+    height: 100px;
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 100px;
+    align-content: center;
+}
